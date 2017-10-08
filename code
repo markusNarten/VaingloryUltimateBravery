@@ -1,0 +1,25 @@
+from random import *
+i=0
+i=5
+list0=["Adagio","Alpha","Ardan","Baptise","Baron","Celeste","Blackfeather","Catherine","Flicker","Fortress","Glaive","Gwen","Grumpjaw","Grace","Idris","Joule","Koska","Krul","Kesrel","Lance","Lyra","Ozo","Petal","Phinn","Reim""Reza","Ringo","Rona","Samuel","Skye","SAW","Scaarf","Taka","Vox"]
+list = ["Sorrowblade","Serpents Mask","Spellblade","Aegis","Aftershock","Alternating Current","Atlas Pauldron","Breaking Point","Bonesaw","Broken Myth","Clockwork","Contraption","Crucible","Echo","Eve of Harvest","Fountain of Renewal","Frostburn","Metal Jacket","Nullwave Gauntles","Poisoned Shiv","Shatterglass","Shiversteel","Slumbering Husk","Stormcrown","Tension Bow","Tornado Trigger","Tyrants Monicle"]
+list2=["War Treads","Halcyon Chargers","Journey Boots"]
+list3=["A","B","C"]
+list4=["Weapon Infusion","Crystal Infusion"]
+list5=["Rare","Epic","Legendary"]
+list6=["Captian","Lane","Jungle"]
+shuffle(list0)
+shuffle(list)
+shuffle(list2)
+shuffle(list3)
+shuffle(list4)
+shuffle(list5)
+shuffle(list6)
+print list0[0]
+print list[0:5]
+print list2[0]
+print randint(1,6)
+print list3
+print list4[0]
+print list5[0]
+print list6[1]
